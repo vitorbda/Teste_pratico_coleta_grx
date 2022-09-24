@@ -42,7 +42,6 @@ function defineNome(id) {
     } else return "Não sei"   
 }
 
-
 //CONTABILIZA A QUANTIDADE DOS RESULTADOS
 function contabilizar() {
     valNa = 0;
@@ -70,4 +69,10 @@ function contabilizar() {
         }
     }
     localStorage.total = JSON.stringify(total)
+}
+
+//SEPARA AS QUANTIDADES DE CADA VALOR
+function valores() {
+    let val = { "Positivo": valPos, "Negativo": valNeg, "NA": valNa };
+    return val
 }
