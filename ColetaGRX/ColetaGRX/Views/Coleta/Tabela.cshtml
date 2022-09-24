@@ -1,3 +1,42 @@
 ﻿@{
     ViewData["Title"] = "Coleta de Dados";
 }
+
+<style>
+    table {
+        border-spacing: 0px;
+        table-layout: fixed;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    td {
+        word-wrap: break-word;
+        vertical-align: middle;
+    }
+</style>
+
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-action="Coleta" asp-controller="Coleta">Adicionar Registro</a>
+    </div>
+    <br />
+
+    <h1 class="display-4">Teste Coleta</h1>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Avaliação</th>
+                <th scope="col">Pergunta 1</th>
+                <th scope="col">Pergunta 2</th>
+                <th scope="col">Pergunta 3</th>
+                <th scope="col">Pergunta 4</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</div>
