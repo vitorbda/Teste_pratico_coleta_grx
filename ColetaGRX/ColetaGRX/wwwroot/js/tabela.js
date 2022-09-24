@@ -1,4 +1,5 @@
-﻿function listaTabela() {
+﻿//LISTAR OS VALORES PARA A TABELA
+function listaTabela() {
     var tb = document.getElementById("tbody")
 
     localStorage.total = JSON.stringify(total)
@@ -22,6 +23,7 @@
     }
 }
 
+//VERIFICA SE NÃO HÁ VALORES
 function verificaValores() {
     if (localStorage.meuArr == undefined) {
         document.getElementById("vazio").innerText = "Sem valores."
