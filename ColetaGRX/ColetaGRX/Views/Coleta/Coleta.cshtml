@@ -1,5 +1,24 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Coleta de Dados";
 }
+
+<div class="text-center">
+
+    <h1 class="display-4">Coleta</h1>
+
+</div>
+
+<form class="container card mt-4 w-50">
+    <div class="mb-3 mt-3">
+        <div class="mb-2">
+            <label>1) Você se considera bom em lógica?</label>
+        </div>
+        <div class="btn-group w-100" role="group">
+            <input type="radio" class="btn-check" name="pergunta1" id="p1true" value="1" checked />
+            <label class="btn btn-outline-primary" for="p1true">Sim</label>
+
+            <input type="radio" class="btn-check" name="pergunta1" id="p1false" value="0">
+            <label class="btn btn-outline-primary" for="p1false">Não</label>
+        </div>
+    </div>
+</form>
