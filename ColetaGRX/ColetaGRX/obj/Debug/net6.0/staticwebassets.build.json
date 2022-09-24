@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ivQjUXOZ3JS91wwsqBOg4vPun0cNEbrLS7oCIOJYqRA=",
+  "Hash": "bQsO6+Lkj9SKC906nKnTsUsJdp/rOlyIUGgo3lGbrZs=",
   "Source": "ColetaGRX",
   "BasePath": "_content/ColetaGRX",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\coleta.js"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\js\\resultados.js",
+      "SourceId": "ColetaGRX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\",
+      "BasePath": "_content/ColetaGRX",
+      "RelativePath": "js/resultados.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\resultados.js"
     },
     {
       "Identity": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\js\\site.js",
