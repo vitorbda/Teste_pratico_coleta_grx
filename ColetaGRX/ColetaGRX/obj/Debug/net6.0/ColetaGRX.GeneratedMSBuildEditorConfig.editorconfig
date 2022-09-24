@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Pichau\Documents\ColetaGRX\Teste_pratico_coleta_grx\ColetaGRX\ColetaGRX
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Pichau/Documents/ColetaGRX/Teste_pratico_coleta_grx/ColetaGRX/ColetaGRX/Views/Coleta/Coleta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sZXRhXENvbGV0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Documents/ColetaGRX/Teste_pratico_coleta_grx/ColetaGRX/ColetaGRX/Views/Coleta/Resultados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sZXRhXFJlc3VsdGFkb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pichau/Documents/ColetaGRX/Teste_pratico_coleta_grx/ColetaGRX/ColetaGRX/Views/Coleta/Tabela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sZXRhXFRhYmVsYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Pichau/Documents/ColetaGRX/Teste_pratico_coleta_grx/ColetaGRX/ColetaGRX/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

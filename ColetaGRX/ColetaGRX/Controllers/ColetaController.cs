@@ -4,7 +4,17 @@ namespace ColetaGRX.Controllers
 {
     public class ColetaController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Resultados()
+        {
+            return View();
+        }
+
+        public IActionResult Coleta()
+        {
+            return View();
+        }
+
+        public IActionResult Tabela()
         {
             return View();
         }
