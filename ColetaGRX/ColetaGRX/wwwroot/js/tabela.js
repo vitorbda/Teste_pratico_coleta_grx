@@ -26,7 +26,7 @@ function listaTabela() {
 //VERIFICA SE NÃO HÁ VALORES
 function verificaValores() {
     if (localStorage.meuArr == undefined) {
-        document.getElementById("vazio").innerText = "Sem valores."
+        document.getElementById("vazio").innerText = "Sem valores"
     } else listaTabela()
 }
 

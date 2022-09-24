@@ -9,5 +9,13 @@
         <a class="btn btn-primary" role="button" asp-action="Coleta" asp-controller="Coleta">Coleta de Dados</a>
         <a class="btn btn-primary" role="button" asp-action="Tabela" asp-controller="Coleta">Apontamentos Diários</a>
         <a class="btn btn-primary" role="button" asp-action="Resultados" asp-controller="Coleta">Resultados</a>
+        <a class="btn btn-danger" role="button" onclick="clearData()">Limpar resultados</a>
     </div>
 </div>
+
+<script>
+    function clearData() {
+    localStorage.clear()
+    alert("Os dados foram deletados!")
+}
+</script>
