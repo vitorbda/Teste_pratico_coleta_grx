@@ -30,6 +30,10 @@ function verificaValores() {
     } else listaTabela()
 }
 
+let valPos = 0;
+let valNeg = 0;
+let valNa = 0;
+let total = 0;
 
 //DEFINE O NOME PARA A PERGUNTA 3
 function defineNome(id) {
