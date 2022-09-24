@@ -25,3 +25,26 @@ inputs.addEventListener('input', () => {
         button.disabled = false
     }
 })
+
+function collectionSave() {
+    event.preventDefault()
+
+    if (localStorage.contador === undefined) localStorage.contador = 0;
+
+    localStorage.contador++
+    let info = {
+        "Dados":
+        {
+            "pergunta1": document.querySelector('input[name=pergunta1]:checked').value,
+            "pergunta2": document.querySelector('input[name=pergunta2]:checked').value,
+            "pergunta3": (document.getElementById('pergunta3')).options
+            [(document.getElementById('pergunta3')).selectedIndex].value,
+            "pergunta4": document.getElementById("pergunta4").value,
+            "avaliacao": localStorage.contador
+        }
+
+
+    }
+    addItem(info)
+    limpar();
+}
