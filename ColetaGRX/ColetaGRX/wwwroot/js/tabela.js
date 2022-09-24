@@ -29,3 +29,17 @@ function verificaValores() {
         document.getElementById("vazio").innerText = "Sem valores."
     } else listaTabela()
 }
+
+
+//DEFINE O NOME PARA A PERGUNTA 3
+function defineNome(id) {
+    if (id == 0) {
+        return "Não"
+    } else if (id == 1) {
+        return "Sim"
+    } else if (id == 3) {
+        return "Agora!!!"
+    } else {
+        return "Não sei"
+    }
+}
