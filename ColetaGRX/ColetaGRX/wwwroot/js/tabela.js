@@ -39,7 +39,35 @@ function defineNome(id) {
         return "Sim"
     } else if (id == 3) {
         return "Agora!!!"
-    } else {
-        return "Não sei"
+    } else return "Não sei"   
+}
+
+
+//CONTABILIZA A QUANTIDADE DOS RESULTADOS
+function contabilizar() {
+    valNa = 0;
+    if (localStorage.meuArr == undefined) {
+        alert('Sem valores')
     }
+    else {
+        let values = JSON.parse(localStorage.meuArr)
+
+        for (i in values) {
+
+            if (values[i].Dados.pergunta1 == 1) { valPos++; total++ }
+            if (values[i].Dados.pergunta2 == 1) { valPos++; total++ }
+            if (values[i].Dados.pergunta3 == 1) { valPos++; total++ }
+
+            if (values[i].Dados.pergunta1 == 0) { valNeg++; total++ }
+            if (values[i].Dados.pergunta2 == 0) { valNeg++; total++ }
+            if (values[i].Dados.pergunta3 == 0) { valNeg++; total++ }
+
+            if (values[i].Dados.pergunta3 == 2) { valNa++; total++ }
+
+
+
+            if (values[i].Dados.pergunta3 == 3) { valPos += 2; total++ }
+        }
+    }
+    localStorage.total = JSON.stringify(total)
 }
