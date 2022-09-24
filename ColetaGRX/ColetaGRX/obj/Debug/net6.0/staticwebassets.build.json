@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uXgiXidcU94h9UA++HfL6WYo3pClPgy6no+z674iLPk=",
+  "Hash": "UCphWoUCOy77HrqskNL/9DSH7RYrkX4u+HPjbzj8Uxk=",
   "Source": "ColetaGRX",
   "BasePath": "_content/ColetaGRX",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\js\\coleta.js",
+      "SourceId": "ColetaGRX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\",
+      "BasePath": "_content/ColetaGRX",
+      "RelativePath": "js/coleta.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\coleta.js"
     },
     {
       "Identity": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\js\\site.js",
