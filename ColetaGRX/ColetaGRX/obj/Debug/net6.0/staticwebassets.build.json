@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UCphWoUCOy77HrqskNL/9DSH7RYrkX4u+HPjbzj8Uxk=",
+  "Hash": "ivQjUXOZ3JS91wwsqBOg4vPun0cNEbrLS7oCIOJYqRA=",
   "Source": "ColetaGRX",
   "BasePath": "_content/ColetaGRX",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\js\\tabela.js",
+      "SourceId": "ColetaGRX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\",
+      "BasePath": "_content/ColetaGRX",
+      "RelativePath": "js/tabela.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tabela.js"
     },
     {
       "Identity": "C:\\Users\\Pichau\\Documents\\ColetaGRX\\Teste_pratico_coleta_grx\\ColetaGRX\\ColetaGRX\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
