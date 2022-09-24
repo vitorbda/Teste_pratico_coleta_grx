@@ -1,4 +1,5 @@
-﻿var arr = [];
+﻿//FUNÇÃO QUE SALVA OS DADOS NA LOCALSTORAGE
+var arr = [];
 function addItem(valor) {
     if (localStorage) {
         arr = JSON.parse(localStorage.getItem('meuArr'));
@@ -16,6 +17,7 @@ let inputs = document.querySelector("textarea")
 let button = document.getElementById("botaoSalvar")
 button.disabled = true;
 
+//VERIFICA O TAMANHO DA TEXTAREA
 inputs.addEventListener('input', () => {
     const min = 15
     const max = 200
@@ -26,6 +28,7 @@ inputs.addEventListener('input', () => {
     }
 })
 
+//FUNÇÃO QUE PEGA OS DADOS DO FORMULÁRIO
 function collectionSave() {
     event.preventDefault()
 
@@ -49,6 +52,7 @@ function collectionSave() {
     limpar();
 }
 
+//LIMPAR OS DADOS DO FORMULÁRIO AO SALVAR
 function limpar() {
     document.getElementById("pergunta4").value = ''
     document.getElementById("p1false").checked = false
