@@ -78,3 +78,64 @@ function Maior1() {
     }
     return ordenacao;
 }
+
+//CALCULA A PORCENTAGEM DE CADA UM
+function calculaPorcentagem(valor) {
+    if (valor == 0) {
+        return 0;
+    }
+
+    let res
+    let total = localStorage.total
+
+    res = ((valor * 100) / total)
+
+    if (res == 0) {
+        return 100;
+    } else {
+        return Math.round(res)
+    }
+}
+
+
+//INSERE OS VALORES NA TABELA
+function testeValor() {
+    contabilizar();
+
+    let colunaTotal = document.getElementById("valorTotal")
+    colunaTotal.innerText = localStorage.total
+
+    //PRIMEIRA LINHA/MAIOR VALOR
+    let Linha1Nome = document.getElementById("Nprimeiro")
+    Linha1Nome.innerText = ("Quantidades" + Maior1().nPrimeiro)
+    let Linha1Valor = document.getElementById("Vprimeiro")
+    Linha1Valor.innerText = Maior1().primeiro
+    //PRIMEIRA LINHA/PORCENTAGEM
+    let Linha1PorNomr = document.getElementById("NprPrimeiro")
+    Linha1PorNomr.innerText = ("Porcentagem de" + Maior1().nPrimeiro)
+    let Linha1PorValor = document.getElementById("VpPrimeiro")
+    Linha1PorValor.innerText = (calculaPorcentagem(Maior1().primeiro) + '%')
+
+    //SEGUNDA LINHA/VALOR
+    let Linha2Nome = document.getElementById("Nsegundo")
+    Linha2Nome.innerText = ("Quantidades" + Maior1().nSegundo)
+    let linha2Valor = document.getElementById("Vsegundo")
+    linha2Valor.innerText = Maior1().segundo
+    //SEGUNDA LINHA/PORCENTAGEM
+    let Linha2PorNomr = document.getElementById("NpSegundo")
+    Linha2PorNomr.innerText = ("Porcentagem de" + Maior1().nSegundo)
+    let Linha2PorValor = document.getElementById("VpSegundo")
+    Linha2PorValor.innerText = (calculaPorcentagem(Maior1().segundo) + '%')
+
+    //TERCEIRA LINHA/VALOR
+    let Linha3Nome = document.getElementById("Nterceira")
+    Linha3Nome.innerText = ("Quantidades" + Maior1().nTerceiro)
+    let linha3Valor = document.getElementById("Vterceira")
+    linha3Valor.innerText = Maior1().terceiro
+    //TERCEIRA LINHA/PORCENTAGEM
+    let Linha3PorNomr = document.getElementById("NpTerceira")
+    Linha3PorNomr.innerText = ("Porcentagem de" + Maior1().nTerceiro)
+    let Linha3PorValor = document.getElementById("VpTerceira")
+    Linha3PorValor.innerText = (calculaPorcentagem(Maior1().terceiro) + '%')
+
+}
