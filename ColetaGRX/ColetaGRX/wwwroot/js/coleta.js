@@ -38,7 +38,7 @@ function collectionSave() {
             "pergunta1": document.querySelector('input[name=pergunta1]:checked').value,
             "pergunta2": document.querySelector('input[name=pergunta2]:checked').value,
             "pergunta3": (document.getElementById('pergunta3')).options
-            [(document.getElementById('pergunta3')).selectedIndex].value,
+                         [(document.getElementById('pergunta3')).selectedIndex].value,
             "pergunta4": document.getElementById("pergunta4").value,
             "avaliacao": localStorage.contador
         }
@@ -47,4 +47,14 @@ function collectionSave() {
     }
     addItem(info)
     limpar();
+}
+
+function limpar() {
+    document.getElementById("pergunta4").value = ''
+    document.getElementById("p1false").checked = false
+    document.getElementById("p1true").checked = true
+    document.getElementById("p2false").checked = false
+    document.getElementById("p2true").checked = true
+    document.getElementById("pergunta3").selectedIndex = 'Sim'
+    document.getElementById("botaoSalvar").disabled = true
 }
