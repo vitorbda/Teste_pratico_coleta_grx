@@ -50,6 +50,7 @@ function collectionSave() {
     }
     addItem(info)
     limpar();
+    abreModal();
 }
 
 //LIMPAR OS DADOS DO FORMULÁRIO AO SALVAR
@@ -61,4 +62,9 @@ function limpar() {
     document.getElementById("p2true").checked = true
     document.getElementById("pergunta3").selectedIndex = 'Sim'
     document.getElementById("botaoSalvar").disabled = true
+}
+
+//CHAMA A MODAL DE CONFIRMAÇÃO
+function abreModal() {
+    $("#myModal").modal('toggle')
 }
